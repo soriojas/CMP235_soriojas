@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Research</title>
+</head>
+<body>
+    <h1>Research in MCC’s game mechanics.</h1>
+    
+    <h2>What is the MCC personality system?</h2>
+    <p>The personality system is a game mechanic which allows players to unlock new clothing and personalities for their characters. Players often strive to accumulate as many personality points as possible so that they may try on many different clothing for their characters.</p>
+    <p>&lt;/em&gt;Here is a gallery of some of the clothing featured in game.&lt;/em&gt;</p>
+    <p>Players also desire personality points to unlock new personality traits for their characters. This unlocks new lines of dialogue when interacting with other players characters.</p>
+    <p><em>A gallery featuring different lines of dialogues from different personality traits.</em></p>
+    
+    <h3>How it works.</h3>
+    <p>Players can choose a subject for their characters to study. They will gain personality points based on the subject they choose and the duration of the subject. How much personality points they gained also depends their character’s motivation. The more time the subject takes and the more motivation the character has, the more personality points they will accumulate.</p>
+    
+    <h2>Cracking down on how the system works.</h2>
+    <p>I figured out how personality points are given to players through experimentation.</p>
+    <p>I recorded how much personality points were gained from each subject, or the duration of them, and other possible variables that I may use in my experiment.</p>
+    <p>First I hypothesized that the formula used to calculate personality points accumulated was a simple linear equation. A linear equation such as <em>y=x</em> will appear as straight diagonal line on a graph.<br /> I came up with a basic equation: p=MT where <em>p </em>stands for personality points gained, M represents motivation, and T represents time in minutes. I plotted the graph and found that the personality points gained from this equation was way too high, much higher than what I actually gain from the game, so this was not the right equation. Somewhere in the equation, there must have been a constant. When I looked over the data I recorded earlier on how much personality points I gained from each subject, I realized they were all multiples of 60 and came up with the new equation p=MT/60. This was more accurate than the last equation, but still not the right one, but it’s accuracy was enough to conclude that the function used to calculate personality points was in fact, a linear equation.</p>
+    
+    <h2>Applications of the research into the game.</h2>
+    <p>This equation only worked on normal subjects and not on special subjects. Special subjects would give more or less personality points than normal subjects. It was still useful though since there are more normal subjects that the player can choose from per day than special subjects, so it often works.<br /> MCC Wikia later then discovered that each special subject has their own constants that make each subject gain a unique amount of personality points. They proposed that the formula used to calculate personality points is p=MPT/6000 where P is q unique constant. These constants are provided in the Wikia.</p>
+    <p> </p>
+    <p>By using this formula, I was able to create an app made specifically for calculating personality points gained from subjects. It also allowed me to realize that there were errors in Wikia’s equation as well.</p>
+    <p>One of them was that the equation resulted in having decimal numbers. You can not gain a decimal amount of personality points. They had to be whole numbers. Another error was that the calculator had zero as a possible result. It is impossible to pick a subject and gain 0 personality points from it. This made me rewrite the equation one last time and submit it to the wikia:</p>
+    <p>A picture of the equation: floor( (M|P|T)/6000 ) * sign( P )<br /> </p>
+    <p>This equation made calculate personality points more accurate than ever before, and is used in the personality calculator which I have created.</p>
+    <p>With the help of the community, it took 6 years to perfect this equation.</p>
+    
+    <!--Go Home-->
+    <a href="/CMP235_soriojas/gh-pages/index.html">Back to Home Page</a>
+</body>
+</html>
