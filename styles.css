@@ -1,8 +1,11 @@
 ﻿body {
-    font-family: "Comic Sans MS", "Comic Sans", cursive, #175bfd;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
     background-color: #c3ecfe;
 }
 
+* {
+    color: blue
+}
 
 ul, ol {
     color: #4e00b8;
