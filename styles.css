@@ -1,10 +1,7 @@
 ﻿body {
+    color: blue;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     background-color: #c3ecfe;
-}
-
-* {
-    color: blue
 }
 
 ul, ol {
