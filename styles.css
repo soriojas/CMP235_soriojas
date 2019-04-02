@@ -1,9 +1,19 @@
-﻿body {
+﻿@font-face {
+    font-family: Akubin;
+    src: url(AKUBIN.TTF) format('truetype'), 
+        url(fonts/AKUBIN.otf) format('opentype');
+}
+
+body {
     color: blue;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    /*font-family: "Comic Sans MS", "Comic Sans", cursive;*/
+    font-family: 'Akubin', Comic Sans MS, sans-serif;
     background-color: #c3ecfe;
     margin: 24px;
-    
+    font-size:112%;
+    font-weight: 900;
+    letter-spacing: 1px;
+    line-height: 1.5;
 }
 
 div {
@@ -15,6 +25,9 @@ div {
 
 ul {
     color: #4e00b8;
+}
+h1 {
+    font-size: 3em;
 }
 
 h1, h2 {
