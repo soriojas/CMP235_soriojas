@@ -13,9 +13,8 @@ div {
     padding: 24px;
 }
 
-ul ul {
+ul:first-child {
     color: #4e00b8;
-    border-top: 2px solid #175bfd;
     padding-top: 7px;
     padding-left: 100px;
 }
