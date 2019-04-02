@@ -2,6 +2,15 @@
     color: blue;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     background-color: #c3ecfe;
+    margin: 24px;
+    
+}
+
+div {
+    background: white;
+    border: solid;
+    border-radius: 2em;
+    padding: 24px;
 }
 
 ul, ol {
@@ -9,4 +18,16 @@ ul, ol {
     border-top: 2px solid #175bfd;
     padding-top: 7px;
     padding-left: 100px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h2, h3 {
+    color: black;
+}
+
+p {
+    text-indent: 24px;
 }
