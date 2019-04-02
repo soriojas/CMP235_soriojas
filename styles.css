@@ -13,13 +13,8 @@ div {
     padding: 24px;
 }
 
-ul:first-child {
+ul {
     color: #4e00b8;
-    padding-top: 7px;
-    padding-left: 100px;
-}
-
-h1 {
 }
 
 h1, h2 {
